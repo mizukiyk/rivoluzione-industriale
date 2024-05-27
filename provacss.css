@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    background-color: #ffffff;
+}
+.titolo {
+    background-color: #568259;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.menu {
+    background-color: #76B486;
+    padding: 10px;
+    text-align: center;
+    
+}
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 16px;
+    margin: 0 8px;
+    display: inline-block;
+}
+.menu a:hover{
+    text-decoration: none;
+    color: #114d2c;
+}
+.tit{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: auto;
+    width: 700px;
+}
+.tit a{
+    padding: 25px;
+    text-align: center;
+    
+}
+
+.sottotitolo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    width: 700px;
+    
+}
+.testo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    width: 750px;
+}
+.testoinv{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    width: 900px;
+}
+.testorec{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    width: 800px;
+}
+.testomf{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    width: 1050px;
+}
+.testomc{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    width: 1050px;
+}
+.container{
+    text-align: justify;
+}
+.testo1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin: auto;
+    padding: 0;
+    width: 700px;
+}
+.container2{
+    text-align: center;
+}
+.img{
+    margin: 40px;
+    text-align: center;
+}
+.img1{
+    float: right;
+    margin-left: 40px;
+    
+}
+.img2{
+    float: left;
+    margin-right: 40px;
+   
+}
+footer {
+    background-color:#76B486;
+    color: #fff;
+    text-align: center;
+    width:100%;
+    flex: 1;
+}
+.ad{
+    margin: 20px;
+    position: fixed;
+    bottom: 10px;
+   
+}
+a{
+    text-decoration: none;
+    color: #2a752f;
+}
+a:hover{
+    text-decoration: none;
+    color: #770368;
+}
