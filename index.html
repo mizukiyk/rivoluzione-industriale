@@ -2,35 +2,91 @@
 <html>
 <head>
     <title>Rivoluzioni nella storia</title>
-    <link rel="stylesheet" href="provacss.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        .ad {
+            margin: 20px;
+            position: fixed;
+            bottom: 10px;
+        }
+        
+        .titolo {
+            background-color: #568259;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .img1 {
+            float: right;
+            margin-left: 40px;
+        }
+
+        .img2 {
+            float: left;
+            margin-right: 40px;
+        }
+
+        .immagini {
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+            margin-top: 5%;
+            margin-left: 12%;
+            margin-right: 15%;
+            margin-bottom: 4%;
+        }
+
+        .immagini img {
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .immagini img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background-color: #76B486;
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+            margin-bottom: 0; 
+        }
+    </style>
 </head>
 <body>
     <div class="ad">
-        <img src="AD.png"  width="50" height="50">
+        <img src="AD.png" width="50" height="50">
     </div>
     <div class="img1">
-        <img src="decorazione2.png"  width="100" height="100">
+        <img src="decorazione2.png" width="100" height="100">
     </div>
     <div class="img2">
-        <img src="decorazione1.png"  width="100" height="100">
+        <img src="decorazione1.png" width="100" height="100">
     </div>  
     <div class="titolo">
-        <img src="logo3.png" alt="logo" >
+        <img src="logo3.png" alt="logo">
     </div>
         
-        <div class="img">
-            <img src="Rivoluzione Americana.webp" alt="Inghilterra" width="25%">
-            <img src="Rivoluzione industriale.jpg" alt="Inghilterra" width="25%">
-            <img src="Rivoluzione Francese.jpg" alt="Inghilterra" width="25%">
-        </div>
-        <div class="tit">
-            <a href="Rivoluzione industriale.html">Rivoluzione Americana</a>
-            <a href="Rivoluzione industriale.html">Rivoluzione industriale</a>
-            <a href="Rivoluzione industriale.html">Rivoluzione Francese</a>
-        </div>
+    <div class="immagini">
+        <a href="Rivoluzione industriale.html">
+            <img src="Rivoluzione industriale.jpg" alt="Rivoluzione industriale" width="67%">
+        </a>
+        <a href="Seconda rivoluzione industriale.html">
+            <img src="seconda-rivoluzione-industriale.jpg" alt="Seconda rivoluzione industriale" width="110%">
+        </a>
+    </div>
     <footer>
         <p>&copy; 2024 D'Amico Alessia</p>
     </footer>
 </body>
-
 </html>
